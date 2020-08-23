@@ -1,0 +1,22 @@
+.container {
+    max-width: 1200px;
+    &--small {
+        max-width: 600px;
+    }
+}
+
+.row {
+    @apply flex;
+    @apply flex-wrap;
+    @apply -ml-15px;
+    @apply -mr-15px;
+}
+
+.col {
+    @apply relative;
+    @apply w-full;
+    @apply max-w-full;
+    @apply flex-grow;
+    @apply pl-15px;
+    @apply pr-15px;
+}

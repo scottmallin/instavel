@@ -1,0 +1,19 @@
+@tailwind base;
+
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=Montserrat:wght@400;700&display=swap');
+@import 'variables';
+@import 'grid';
+@import 'base';
+@import 'form';
+
+@import './components/header';
+@import './components/user';
+@import './components/photo-grid';
+
+body {
+    @apply font-body;
+}
+
+@tailwind utilities;

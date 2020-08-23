@@ -1,0 +1,25 @@
+.site-header {
+    @apply sticky;
+    @apply top-0;
+    @apply bg-white;
+    @apply shadow-md;
+    @apply py-20px;
+    @apply z-10;
+    &__nav {
+        @apply flex;
+        @apply justify-end;
+        li + li {
+            @apply ml-10px;
+        }
+    }
+    &__logo {
+        font-size: 1.5em;
+    }
+    &__title {
+        @apply border-l;
+        @apply border-gray-500;
+        @apply font-display;
+        @apply pl-10px;
+        @apply ml-10px;
+    }
+}

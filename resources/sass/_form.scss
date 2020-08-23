@@ -1,0 +1,29 @@
+input {
+    &[type="text"], &[type="email"], &[type="password"] {
+        @apply border;
+        @apply border-gray-500;
+        @apply rounded-sm;
+        @apply w-full;
+        @apply py-5px;
+        @apply px-10px;
+    }
+}
+
+button, .button {
+    @apply bg-white;
+    @apply text-gray-800;
+    @apply font-semibold;
+    @apply py-10px;
+    @apply px-15px;
+    @apply border;
+    @apply border-gray-400;
+    @apply rounded;
+    @apply shadow;
+    &:hover {
+       @apply bg-gray-100;
+    }
+}
+
+.form-row {
+    @apply items-center;
+}

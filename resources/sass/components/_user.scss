@@ -1,0 +1,10 @@
+.user {
+    @apply pb-40px;
+    &__avatar {
+        @apply w-1/2;
+        @apply mx-auto;
+    }
+    &__stats {
+        @apply mb-20px;
+    }
+}
