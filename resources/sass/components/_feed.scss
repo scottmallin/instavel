@@ -1,0 +1,23 @@
+.single-post {
+    @apply mb-30px;
+    &__wrapper {
+        @apply col;
+        @apply w-1/2;
+        @apply mx-auto;
+        max-width: 50%;
+    }
+    &__caption {
+        @apply border-l;
+        @apply border-r;
+        @apply border-b;
+        @apply p-15px;
+    }
+}
+
+.pagination-links ul {
+    @apply flex;
+    @apply justify-center;
+    li {
+        @apply p-5px;
+    }
+}
